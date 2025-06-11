@@ -12,11 +12,12 @@ function LoginForm() {
     email: yup.string().email("Enter a valid Email").required("enter your email"),
     password: yup.string().required("enter OTP password"),
   });
+   const url = "https://ebs-3.onrender.com";
   const submitForm = async (value) => {
   
     console.log(value);
       try{
-          const {data} = await axios.post("http://localhost:4000/api/users/login",value);
+          const {data} = await axios.post(url +"/api/users/login",value);
           if(!data.success){
            return toast.error(data.message);
           }
