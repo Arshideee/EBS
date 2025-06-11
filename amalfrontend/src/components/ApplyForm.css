@@ -1,0 +1,40 @@
+.form-control{
+    border: solid 1px; 
+    color:gray;
+}
+.otp-btn{
+    top: -1px;
+    right: 0px;
+   
+}
+
+.btn-width{
+    padding: 8px 30px;
+   background-color: #4c3d3d;
+   border-color: #4c3d3d;
+
+}
+.btn-width:hover{
+    background-color: #695757;
+    border-color: #695757;
+}
+.text-end button{
+    background-color: #c07f00;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+}
+.text-end button:hover{
+    background-color:  #e4ae43;
+    color: white;
+}
+/* @media screen and (max-width:767px) {
+    .otp-btn{
+        top: 0px;
+        right: 0px;
+      
+    }
+   
+} */

@@ -1,0 +1,6 @@
+# === Frontend (amalfrontend) ===
+amalfrontend/node_modules/
+amalfrontend/.env
+amalfrontend/dist/
+amalfrontend/build/
+amalfrontend/*.log

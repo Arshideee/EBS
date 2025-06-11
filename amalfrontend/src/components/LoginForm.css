@@ -1,0 +1,38 @@
+.login input {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.login input:focus {
+    color: black;
+  background-color: white;
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.login.form-control {
+    color: white;
+    border: none;
+}
+.login.form-label {
+    margin-bottom: .5rem;
+    color: black;
+}
+.btnn-width{
+    padding: 8px 30px;
+    background-color: #6d5555;
+   border: none;
+}
+.btnn-width:hover{
+    background-color: #816969;
+    border: none;
+}
+.btnn-width:active{
+    background-color: #6d5555;
+    border: none;
+}
+.btn:first-child:active{
+    background-color: #6d5555;
+}
+.f-cntrl{
+    border: none;
+}

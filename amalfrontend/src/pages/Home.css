@@ -1,0 +1,72 @@
+.applyForm {
+  background-color: white;
+  color: gray;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.form-bg {
+  /* background-color: #e7e7e5; */
+  background-color: #f5f0e6;
+}
+.form-padding {
+  padding: 0px 0px;
+}
+@media screen and (min-width: 1200px) {
+  .form-padding {
+    padding: 0px 50px;
+  }
+}
+.nav-tabs .nav-link.active {
+  background-color: #c07f00;
+  color: white;
+  border-radius: 10px;
+}
+.nav-link {
+  color: black;
+  background: none;
+  border: none;
+  border-radius: 0px;
+  font-weight: 500;
+}
+.nav-tabs {
+  border: none;
+}
+.nav-link:hover {
+  color: rgb(59, 58, 58);
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+.loginForm {
+  background-color: white;
+  color: gray;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+
+.loginbox{
+    background-color:#d4d1a8 ;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.login-1{
+ padding: 0px;
+}
+
+.img-border{
+  border-radius: 10px 0px 0px 8px;
+}
+
+/* .login-col2{
+  background-color:#d4d1a8 ;
+} */
+.login-1{
+  background-color: rgb(202, 192, 166);
+}
+.logo2 img{
+  width: 130px;
+}
+.login-col1{
+  color:rgb(53, 52, 52);
+}

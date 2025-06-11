@@ -1,0 +1,25 @@
+.logo{
+    width: 250px;
+}
+.nav-bg{
+    background-color:rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    background-color: #c07f00;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 20px;
+    color: white;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color:  #e4ae43;
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        display: none;
+    }
+}
