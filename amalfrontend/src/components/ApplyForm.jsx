@@ -18,12 +18,12 @@ function ApplyForm() {
     state: yup.string().required("select your state"),
     city: yup.string().required("select your city"),
   });
-  
+  const url = "https://ebs-3.onrender.com";
   const submitForm = async (value) => {
     // toast.success("Account Signed up");
     console.log(value);
     try{
-      const {data} = await axios.post("http://localhost:4000/api/users/register",value);
+      const {data} = await axios.post(url + "/api/users/register",value);
       if(!data.success){
        return toast.error(data.message);
       }
